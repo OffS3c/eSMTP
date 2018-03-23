@@ -1,5 +1,5 @@
 # eSMTP
-A multithreadded tool to enumerate SMTP User/OS information from SMTP Servers
+A python 2.7 based multithreadded tool to enumerate SMTP User/OS information from SMTP Servers
 ```
 D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py
 
@@ -42,6 +42,7 @@ optional arguments:
 
 D:\ArchivalStorage\OSCP\pwk-labs>
 ```
+
 # Tests
 ```
 D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py -d -U all-users.txt -T IPs.txt --timeout 15 --threads 10
@@ -55,3 +56,13 @@ D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py -d -U all-users.txt -T IPs.txt 
 
 D:\ArchivalStorage\OSCP\pwk-labs>
 ```
+
+# Installation
+1. Install Python 2.7
+2. Install requiements by ```pip install requirements.txt``` in the project directory.
+
+# Author
+OffS3c [https://offs3c.com]
+
+# Company
+Glaxosoft [https://glaxosoft.com]
