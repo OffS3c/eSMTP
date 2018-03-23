@@ -1,6 +1,6 @@
 # eSMTP
 A multithreadded tool to enumerate SMTP User/OS information from SMTP Servers
-
+```
 D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py
 
 [!] eSMTP   : A multithreadded tool to enumerate SMTP User/OS information from SMTP Servers (version 1.0b)
@@ -15,8 +15,10 @@ D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py
 +------+------------+------------+------+-------------+
 
 D:\ArchivalStorage\OSCP\pwk-labs>
+```
 
 # Usage
+```
 D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py -h
 usage: eSMTP.py [-h] [-b] [-U USERS] [-u USER] [-T TARGETS] [-t TARGET]
                 [--threads THREADS] [--timeout TIMEOUT] [-d]
@@ -39,9 +41,9 @@ optional arguments:
   -d, --debug           be very very verbose
 
 D:\ArchivalStorage\OSCP\pwk-labs>
-
+```
 # Tests
-
+```
 D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py -d -U all-users.txt -T IPs.txt --timeout 15 --threads 10
 
 +--------------+------------+------------+--------------+-------------+
@@ -52,3 +54,4 @@ D:\ArchivalStorage\OSCP\pwk-labs>python eSMTP.py -d -U all-users.txt -T IPs.txt 
 +--------------+------------+------------+--------------+-------------+
 
 D:\ArchivalStorage\OSCP\pwk-labs>
+```
