@@ -59,10 +59,9 @@ D:\ArchivalStorage\OSCP\pwk-labs>
 
 # Installation
 1. Install Python 2.7
-2. Install requiements by ```pip install requirements.txt``` in the project directory.
+2. Install requiements by ```pip install -r requirements.txt``` in the project directory.
 
 # Author
-OffS3c [https://offs3c.com]
+OffS3c https://offs3c.com
 
-# Company
-Glaxosoft [https://glaxosoft.com]
+Glaxosoft https://glaxosoft.com
